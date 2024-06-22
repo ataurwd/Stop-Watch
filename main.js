@@ -47,3 +47,9 @@ const updateDisplay = () =>{
 
     document.getElementById('timer').textContent = formatedTime;
 }
+
+
+
+document.addEventListener('contextmenu', function(e){
+    e.preventDefault(e);
+}, true);
